@@ -7,13 +7,13 @@ cssclasses:
 
 | Comando (descrição)             | Atalho             |
 | ------------------------------- | ------------------ |
+| 📂 Load Workspace               | `Alt + W`          |
 | 👈 Toggle Left Sidebar          | `Alt + ]`          |
 | 👉 Toggle Right Sidebar         | `Alt + [`          |
 | ◀️ Focus Previous Pane          | `Alt + PageDown`   |
 | ▶️ Focus Next Pane              | `Alt + PageUp`     |
 | 📄 Show Outline                 | `Ctrl + Shift + O` |
 | 🗂️ Open Workspace Switcher     | `Alt + A`          |
-| 📂 Load Workspace               | `Alt + W`          |
 | 💾 Save Workspace               | `Alt + Ctrl + S`   |
 | 🚪 Close Other Tabs             | `Alt + Ctrl + W`   |
 | 📌 Pin / Unpin Tab              | `Alt + F`          |

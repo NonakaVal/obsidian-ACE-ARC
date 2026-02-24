@@ -9,10 +9,7 @@ A **Gestão do Conhecimento** busca coletar, organizar, conectar e aplicar infor
 
 #  — Fundamentos  
 
-## Antes de Túdo :LiArrowBigRight: [[11 Checklist|Finalizar Checklist]]
 
-
-<br><br>
 
 
 ## 🗃️ **Boas Práticas de Classificação**

@@ -1,36 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "rebuild vault cache",
-      "path": "X/Media/Images/rebuild vault cache.png"
+      "basename": "Boas Vindas",
+      "path": "Boas Vindas.md"
     },
     {
       "basename": "README",
       "path": "README.md"
     },
     {
-      "basename": "_atalhos",
-      "path": "X/Assets/_atalhos.md"
-    },
-    {
-      "basename": "daily-capture",
-      "path": "X/Media/Images/daily-capture.png"
-    },
-    {
-      "basename": "Boas Vindas",
-      "path": "Boas Vindas.md"
-    },
-    {
-      "basename": "01 Primeira Nota",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md"
-    },
-    {
-      "basename": "08 - Considere apoiar o projeto 💛",
-      "path": "+/08 - Considere apoiar o projeto 💛.md"
-    },
-    {
-      "basename": "02 Markdown",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md"
+      "basename": "Considere apoiar o projeto 💛",
+      "path": "+/Considere apoiar o projeto 💛.md"
     },
     {
       "basename": "Obsidian Base",
@@ -45,16 +25,48 @@
       "path": "Atlas/Index & Bases/+ Gestão de Conhecimento.md"
     },
     {
-      "basename": "🏠",
-      "path": "🏠.md"
-    },
-    {
       "basename": "08 ACE Pack",
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/08 ACE Pack.md"
     },
     {
+      "basename": "02 Markdown",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md"
+    },
+    {
+      "basename": "01 Primeira Nota",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md"
+    },
+    {
+      "basename": "Créditos-Atribuições",
+      "path": "Créditos-Atribuições.md"
+    },
+    {
       "basename": "start-here",
       "path": "X/start-here.md"
+    },
+    {
+      "basename": "_atalhos",
+      "path": "X/Assets/_atalhos.md"
+    },
+    {
+      "basename": "09 ARC Framework",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/09 ARC Framework.md"
+    },
+    {
+      "basename": "As 3 Areas ACE",
+      "path": "+/As 3 Areas ACE.md"
+    },
+    {
+      "basename": "Estrutura base",
+      "path": "+/Estrutura base.md"
+    },
+    {
+      "basename": "🏠",
+      "path": "🏠.md"
+    },
+    {
+      "basename": "03 Propriedades",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/03 Propriedades.md"
     },
     {
       "basename": "04 Entendendo Coleções",
@@ -69,20 +81,12 @@
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/07 Sugestões de Classificações.md"
     },
     {
-      "basename": "03 Propriedades",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/03 Propriedades.md"
+      "basename": "daily-capture",
+      "path": "X/Media/Images/daily-capture.png"
     },
     {
-      "basename": "Créditos-Atribuições",
-      "path": "Créditos-Atribuições.md"
-    },
-    {
-      "basename": "As 3 Areas ACE",
-      "path": "+/As 3 Areas ACE.md"
-    },
-    {
-      "basename": "Estrutura base",
-      "path": "+/Estrutura base.md"
+      "basename": "rebuild vault cache",
+      "path": "X/Media/Images/rebuild vault cache.png"
     },
     {
       "basename": "Boards",
@@ -137,16 +141,8 @@
       "path": "Calendar & Review/Daily Notes/2025-10-07.md"
     },
     {
-      "basename": "11 Checklist",
-      "path": "Atlas/Index & Bases/11 Checklist.md"
-    },
-    {
       "basename": "10 dashboard++ (Template)",
       "path": "Atlas/Index & Bases/10 dashboard++ (Template).md"
-    },
-    {
-      "basename": "09 ARC Framework",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/09 ARC Framework.md"
     },
     {
       "basename": "arc-flow",
