@@ -2,8 +2,6 @@
 created: "[[2025-09-19]]"
 tags:
   - dataview
-cssclasses:
-  - wide-page
 ---
 
 ```dataviewjs
@@ -67,7 +65,7 @@ function renderTable() {
     tableDiv.innerHTML = "";
     let table = document.createElement("table");
     table.classList.add("dataview");
-    table.style.width = "150%";
+    table.style.width = "100%";
     table.style.borderCollapse = "collapse";
 
     let thead = document.createElement("thead");

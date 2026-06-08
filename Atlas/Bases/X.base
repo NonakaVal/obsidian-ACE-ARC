@@ -1,0 +1,41 @@
+filters:
+  and:
+    - file.inFolder("X")
+    - file.ext == "md"
+formulas:
+  M.time: file.mtime.relative()
+views:
+  - type: table
+    name: Assets
+    filters:
+      and:
+        - file.inFolder("X/Assets")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.M.time
+      - file.name
+      - tags
+    sort:
+      - property: formula.M.time
+        direction: ASC
+    columnSize:
+      note.tags: 201
+      formula.M.time: 181
+  - type: table
+    name: Templates
+    filters:
+      and:
+        - file.inFolder("X/Templates")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - formula.M.time
+      - file.name
+    sort:
+      - property: formula.M.time
+        direction: ASC
+    columnSize:
+      formula.M.time: 227

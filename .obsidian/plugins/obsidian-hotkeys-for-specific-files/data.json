@@ -1,0 +1,10 @@
+{
+  "files": [
+    {
+      "useMoment": false,
+      "file": "README.md"
+    }
+  ],
+  "useExistingPane": true,
+  "useHoverEditor": false
+}

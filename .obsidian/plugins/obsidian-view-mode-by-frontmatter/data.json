@@ -1,0 +1,65 @@
+{
+  "debounceTimeout": 300,
+  "ignoreOpenFiles": false,
+  "ignoreForceViewAll": false,
+  "folders": [
+    {
+      "folder": "Calendar & Review/Monthly Notes",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "X/Templates",
+      "viewMode": "obsidianEditingMode: source"
+    },
+    {
+      "folder": "Calendar & Review/Weekly Notes",
+      "viewMode": "obsidianUIMode: preview"
+    }
+  ],
+  "files": [
+    {
+      "filePattern": "🏠",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "@-templates",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "README",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "Boas Vindas",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "Base structure",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "Markdown",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "_Conceitos",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "_Mapas",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "Primeira Nota",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "start-here",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "Considere apoiar o projeto 💛",
+      "viewMode": "obsidianUIMode: preview"
+    }
+  ]
+}

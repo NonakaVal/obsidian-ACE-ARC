@@ -1,3 +1,7 @@
+---
+tags:
+  - dataview
+---
 ## Format
 ```dataviewjs
 // =============================
