@@ -9,6 +9,10 @@
       "path": "Considere apoiar o projeto 💛.md"
     },
     {
+      "basename": "Créditos-Atribuições",
+      "path": "Créditos-Atribuições.md"
+    },
+    {
       "basename": "X",
       "path": "Atlas/Bases/X.base"
     },
@@ -103,10 +107,6 @@
     {
       "basename": "qrcodepix",
       "path": "X/qrcodepix.png"
-    },
-    {
-      "basename": "Créditos-Atribuições",
-      "path": "Créditos-Atribuições.md"
     },
     {
       "basename": "Z-new-area-note",
