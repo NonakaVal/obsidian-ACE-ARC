@@ -4,25 +4,33 @@
   "ignoreForceViewAll": false,
   "folders": [
     {
-      "folder": "Calendar & Review/Monthly Notes",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
       "folder": "X/Templates",
       "viewMode": "obsidianEditingMode: source"
     },
     {
       "folder": "Calendar & Review/Weekly Notes",
       "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "X/Assets/Dataview",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "Atlas/Index & Bases",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "Atlas/Conceitos/+ Entendendo o básico Obsidian",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "",
+      "viewMode": ""
     }
   ],
   "files": [
     {
       "filePattern": "🏠",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "@-templates",
       "viewMode": "obsidianUIMode: preview"
     },
     {
@@ -34,31 +42,11 @@
       "viewMode": "obsidianUIMode: preview"
     },
     {
-      "filePattern": "Base structure",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "Markdown",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "_Conceitos",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "_Mapas",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "Primeira Nota",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
-      "filePattern": "start-here",
-      "viewMode": "obsidianUIMode: preview"
-    },
-    {
       "filePattern": "Considere apoiar o projeto 💛",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "Créditos-Atribuições",
       "viewMode": "obsidianUIMode: preview"
     }
   ]

@@ -1,16 +1,16 @@
 {
   "workspaces": {
-    "Boas Vindas": {
+    "Começe Aqui": {
       "main": {
         "id": "2178b4b13ad8d220",
         "type": "split",
         "children": [
           {
-            "id": "50524fefcc348f5b",
+            "id": "e125e24094fdc972",
             "type": "tabs",
             "children": [
               {
-                "id": "b4b99d631b89cfbc",
+                "id": "2f4da4148c8faf6f",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -24,1291 +24,10 @@
                   "pinned": true,
                   "icon": "lucide-file",
                   "title": "Boas Vindas"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "da223467db4c9158",
-        "type": "split",
-        "children": [
-          {
-            "id": "3ba83bbb7904c6a3",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b34c0f902b1265c0",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Explorador de arquivos"
-                }
-              },
-              {
-                "id": "c3dcb494a0674c29",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:dataview",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Procurar"
-                }
-              },
-              {
-                "id": "e0f7509dece0369f",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "f7119f2528338e15",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "README.md",
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Sumário de README"
-                }
-              },
-              {
-                "id": "d7761548f734b1cf",
-                "type": "leaf",
-                "state": {
-                  "type": "recent-files",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Recent files"
-                }
-              }
-            ],
-            "currentTab": 4
-          }
-        ],
-        "direction": "horizontal",
-        "width": 311.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "3703f7d8eaeb01fd",
-        "type": "split",
-        "children": [
-          {
-            "id": "c4e9b6b7a7b97459",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "40be355d2ebab86f",
-                "type": "leaf",
-                "state": {
-                  "type": "file-properties",
-                  "state": {
-                    "file": "README.md"
-                  },
-                  "icon": "lucide-info",
-                  "title": "File properties for README"
-                }
-              },
-              {
-                "id": "1ebc49deb54dd0f7",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "Todas as propriedades"
-                }
-              },
-              {
-                "id": "5d297ae10b81be7a",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
-                }
-              },
-              {
-                "id": "6403af482c6156e6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "X/Assets/start-here.md",
-                    "mode": "preview",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "start-here"
-                }
-              }
-            ],
-            "currentTab": 3
-          },
-          {
-            "id": "13b64413b6cc874a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2386ef8588c3dc8e",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Etiquetas"
-                }
-              },
-              {
-                "id": "42a6ccda79921454",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "Atlas/Mapas/_Mapas.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from README"
-                }
-              },
-              {
-                "id": "245a49aab2c5cdb7",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "Atlas/Bases/X.base",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Links inversos para X"
-                }
-              },
-              {
-                "id": "e2a8f5d097fb482f",
-                "type": "leaf",
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "Boas Vindas.md",
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 1,
-                      "close": false
-                    }
-                  },
-                  "icon": "lucide-git-fork",
-                  "title": "Gráfico de Boas Vindas"
-                }
-              }
-            ],
-            "currentTab": 3
-          }
-        ],
-        "direction": "horizontal",
-        "width": 335.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:Abrir a troca rápida": false,
-          "graph:Abrir visualização em gráfico": false,
-          "canvas:Criar novo canvas": false,
-          "daily-notes:Abrir a nota de hoje": false,
-          "templates:Inserir modelo": false,
-          "command-palette:Abrir paleta de comandos": false,
-          "random-note:Abrir nota aleatória": false,
-          "audio-recorder:Começar/parar a gravação de áudio": false,
-          "workspaces:Gerenciar leiautes da área de trabalho": false,
-          "bases:Criar nova base": false,
-          "periodic-notes:Open today": false,
-          "callout-manager:Insert Callout": false,
-          "templater-obsidian:Templater": false
-        }
-      },
-      "active": "b4b99d631b89cfbc",
-      "mtime": "2026-06-08T19:15:02-03:00"
-    },
-    "Primeira Nota": {
-      "main": {
-        "id": "2178b4b13ad8d220",
-        "type": "split",
-        "children": [
-          {
-            "id": "50524fefcc348f5b",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b4b99d631b89cfbc",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Boas Vindas.md",
-                    "mode": "preview",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "Boas Vindas"
-                }
-              },
-              {
-                "id": "b16d25474bec40b9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "+/Primeira Nota.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Primeira Nota"
-                }
-              }
-            ],
-            "currentTab": 1
-          },
-          {
-            "id": "385a9d74e4f37a29",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1b6a5d864e262750",
-                "type": "leaf",
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "+/Primeira Nota.md",
-                    "options": {
-                      "collapse-filter": false,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 1,
-                      "close": true
-                    }
-                  },
-                  "icon": "lucide-git-fork",
-                  "title": "Gráfico de Primeira Nota"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "da223467db4c9158",
-        "type": "split",
-        "children": [
-          {
-            "id": "3ba83bbb7904c6a3",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b34c0f902b1265c0",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Explorador de arquivos"
-                }
-              },
-              {
-                "id": "c3dcb494a0674c29",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "line:(resources)",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "e0f7509dece0369f",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "f7119f2528338e15",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "README.md",
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Sumário de README"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 321.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "3703f7d8eaeb01fd",
-        "type": "split",
-        "children": [
-          {
-            "id": "c4e9b6b7a7b97459",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2386ef8588c3dc8e",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "40be355d2ebab86f",
-                "type": "leaf",
-                "state": {
-                  "type": "file-properties",
-                  "state": {
-                    "file": "README.md"
-                  },
-                  "icon": "lucide-info",
-                  "title": "File properties for README"
-                }
-              },
-              {
-                "id": "5d297ae10b81be7a",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
-                }
-              }
-            ],
-            "currentTab": 2
-          },
-          {
-            "id": "13b64413b6cc874a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1ebc49deb54dd0f7",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              },
-              {
-                "id": "42a6ccda79921454",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "Atlas/Mapas/_Mapas.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from README"
-                }
-              },
-              {
-                "id": "245a49aab2c5cdb7",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "X/Assets/Dataview/@ Garden & Archtect Review.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for README"
-                }
-              }
-            ],
-            "currentTab": 2
-          }
-        ],
-        "direction": "horizontal",
-        "width": 461.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:Abrir a troca rápida": false,
-          "graph:Abrir visualização em gráfico": false,
-          "canvas:Criar novo canvas": false,
-          "daily-notes:Abrir a nota de hoje": false,
-          "templates:Inserir modelo": false,
-          "command-palette:Abrir paleta de comandos": false,
-          "random-note:Abrir nota aleatória": false,
-          "audio-recorder:Começar/parar a gravação de áudio": false,
-          "workspaces:Gerenciar leiautes da área de trabalho": false,
-          "bases:Criar nova base": false,
-          "periodic-notes:Open today": false,
-          "callout-manager:Insert Callout": false,
-          "templater-obsidian:Templater": false
-        }
-      },
-      "active": "b16d25474bec40b9",
-      "mtime": "2026-06-08T19:13:19-03:00"
-    },
-    "Estrutura e Formatação Markdown": {
-      "main": {
-        "id": "2178b4b13ad8d220",
-        "type": "split",
-        "children": [
-          {
-            "id": "50524fefcc348f5b",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b16d25474bec40b9",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Atlas/Concepts/Base structure.md",
-                    "mode": "preview",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "Base structure"
                 }
               }
             ],
             "stacked": true
-          },
-          {
-            "id": "70a1feffacb07042",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0c970bd9ab2d48a9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Atlas/Concepts/Markdown.md",
-                    "mode": "preview",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Markdown"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "da223467db4c9158",
-        "type": "split",
-        "children": [
-          {
-            "id": "3ba83bbb7904c6a3",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b34c0f902b1265c0",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Explorador de arquivos"
-                }
-              },
-              {
-                "id": "c3dcb494a0674c29",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "line:(resources)",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "e0f7509dece0369f",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "f7119f2528338e15",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "README.md",
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Sumário de README"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 321.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "3703f7d8eaeb01fd",
-        "type": "split",
-        "children": [
-          {
-            "id": "c4e9b6b7a7b97459",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2386ef8588c3dc8e",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "40be355d2ebab86f",
-                "type": "leaf",
-                "state": {
-                  "type": "file-properties",
-                  "state": {
-                    "file": "README.md"
-                  },
-                  "icon": "lucide-info",
-                  "title": "File properties for README"
-                }
-              },
-              {
-                "id": "5d297ae10b81be7a",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
-                }
-              }
-            ],
-            "currentTab": 2
-          },
-          {
-            "id": "13b64413b6cc874a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1ebc49deb54dd0f7",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              },
-              {
-                "id": "42a6ccda79921454",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "Atlas/Mapas/_Mapas.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from README"
-                }
-              },
-              {
-                "id": "245a49aab2c5cdb7",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "X/Assets/Dataview/@ Garden & Archtect Review.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for README"
-                }
-              }
-            ],
-            "currentTab": 2
-          }
-        ],
-        "direction": "horizontal",
-        "width": 461.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:Abrir a troca rápida": false,
-          "graph:Abrir visualização em gráfico": false,
-          "canvas:Criar novo canvas": false,
-          "daily-notes:Abrir a nota de hoje": false,
-          "templates:Inserir modelo": false,
-          "command-palette:Abrir paleta de comandos": false,
-          "random-note:Abrir nota aleatória": false,
-          "audio-recorder:Começar/parar a gravação de áudio": false,
-          "workspaces:Gerenciar leiautes da área de trabalho": false,
-          "bases:Criar nova base": false,
-          "periodic-notes:Open today": false,
-          "callout-manager:Insert Callout": false,
-          "templater-obsidian:Templater": false
-        }
-      },
-      "active": "b16d25474bec40b9",
-      "mtime": "2026-06-08T18:53:18-03:00"
-    },
-    "Conceitos e MOCS": {
-      "main": {
-        "id": "2178b4b13ad8d220",
-        "type": "split",
-        "children": [
-          {
-            "id": "b13a0997eb476abf",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "87aed065edac9ecb",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Atlas/Concepts/_Conceitos.md",
-                    "mode": "preview",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "_Conceitos"
-                }
-              }
-            ]
-          },
-          {
-            "id": "9e053ab00b9d2d3c",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a640fa12cac2fe7b",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Atlas/Mapas/_Mapas.md",
-                    "mode": "preview",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "_Mapas"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "da223467db4c9158",
-        "type": "split",
-        "children": [
-          {
-            "id": "3ba83bbb7904c6a3",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b34c0f902b1265c0",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Explorador de arquivos"
-                }
-              },
-              {
-                "id": "c3dcb494a0674c29",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "line:(resources)",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "e0f7509dece0369f",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "f7119f2528338e15",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "README.md",
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Sumário de README"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 321.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "3703f7d8eaeb01fd",
-        "type": "split",
-        "children": [
-          {
-            "id": "c4e9b6b7a7b97459",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2386ef8588c3dc8e",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "40be355d2ebab86f",
-                "type": "leaf",
-                "state": {
-                  "type": "file-properties",
-                  "state": {
-                    "file": "README.md"
-                  },
-                  "icon": "lucide-info",
-                  "title": "File properties for README"
-                }
-              },
-              {
-                "id": "5d297ae10b81be7a",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
-                }
-              }
-            ],
-            "currentTab": 2
-          }
-        ],
-        "direction": "horizontal",
-        "width": 311.5
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:Abrir a troca rápida": false,
-          "graph:Abrir visualização em gráfico": false,
-          "canvas:Criar novo canvas": false,
-          "daily-notes:Abrir a nota de hoje": false,
-          "templates:Inserir modelo": false,
-          "command-palette:Abrir paleta de comandos": false,
-          "random-note:Abrir nota aleatória": false,
-          "audio-recorder:Começar/parar a gravação de áudio": false,
-          "workspaces:Gerenciar leiautes da área de trabalho": false,
-          "bases:Criar nova base": false,
-          "periodic-notes:Open today": false,
-          "callout-manager:Insert Callout": false,
-          "templater-obsidian:Templater": false
-        }
-      },
-      "active": "87aed065edac9ecb",
-      "mtime": "2026-06-08T18:58:20-03:00"
-    },
-    "Assets & Templates": {
-      "main": {
-        "id": "2178b4b13ad8d220",
-        "type": "split",
-        "children": [
-          {
-            "id": "50524fefcc348f5b",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b4b99d631b89cfbc",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Boas Vindas.md",
-                    "mode": "preview",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "Boas Vindas"
-                }
-              },
-              {
-                "id": "841b1a770d941e00",
-                "type": "leaf",
-                "state": {
-                  "type": "bases",
-                  "state": {
-                    "file": "Atlas/Bases/X.base",
-                    "viewName": "Assets"
-                  },
-                  "icon": "lucide-table",
-                  "title": "X"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "da223467db4c9158",
-        "type": "split",
-        "children": [
-          {
-            "id": "3ba83bbb7904c6a3",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b34c0f902b1265c0",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Explorador de arquivos"
-                }
-              },
-              {
-                "id": "c3dcb494a0674c29",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:#calendar",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Procurar"
-                }
-              },
-              {
-                "id": "e0f7509dece0369f",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              },
-              {
-                "id": "f7119f2528338e15",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "README.md",
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Sumário de README"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "horizontal",
-        "width": 449.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "3703f7d8eaeb01fd",
-        "type": "split",
-        "children": [
-          {
-            "id": "c4e9b6b7a7b97459",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "40be355d2ebab86f",
-                "type": "leaf",
-                "state": {
-                  "type": "file-properties",
-                  "state": {
-                    "file": "README.md"
-                  },
-                  "icon": "lucide-info",
-                  "title": "File properties for README"
-                }
-              },
-              {
-                "id": "5d297ae10b81be7a",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
-                }
-              },
-              {
-                "id": "2386ef8588c3dc8e",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Etiquetas"
-                }
-              }
-            ],
-            "currentTab": 2
-          },
-          {
-            "id": "13b64413b6cc874a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "42a6ccda79921454",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "Atlas/Mapas/_Mapas.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from README"
-                }
-              },
-              {
-                "id": "245a49aab2c5cdb7",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "Atlas/Bases/X.base",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Links inversos para X"
-                }
-              },
-              {
-                "id": "1ebc49deb54dd0f7",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "Todas as propriedades"
-                }
-              }
-            ],
-            "currentTab": 2
-          }
-        ],
-        "direction": "horizontal",
-        "width": 461.5
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:Abrir a troca rápida": false,
-          "graph:Abrir visualização em gráfico": false,
-          "canvas:Criar novo canvas": false,
-          "daily-notes:Abrir a nota de hoje": false,
-          "templates:Inserir modelo": false,
-          "command-palette:Abrir paleta de comandos": false,
-          "random-note:Abrir nota aleatória": false,
-          "audio-recorder:Começar/parar a gravação de áudio": false,
-          "workspaces:Gerenciar leiautes da área de trabalho": false,
-          "bases:Criar nova base": false,
-          "periodic-notes:Open today": false,
-          "callout-manager:Insert Callout": false,
-          "templater-obsidian:Templater": false
-        }
-      },
-      "active": "2386ef8588c3dc8e",
-      "mtime": "2026-06-08T19:15:36-03:00"
-    },
-    "Considere apoiar o projeto 💛": {
-      "main": {
-        "id": "2178b4b13ad8d220",
-        "type": "split",
-        "children": [
-          {
-            "id": "50524fefcc348f5b",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b4b99d631b89cfbc",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Boas Vindas.md",
-                    "mode": "preview",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "Boas Vindas"
-                }
-              },
-              {
-                "id": "8d37f7ed13d6930a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Considere apoiar o projeto 💛.md",
-                    "mode": "preview",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Considere apoiar o projeto 💛"
-                }
-              }
-            ],
-            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1333,7 +52,7 @@
                     "searchQuery": ""
                   },
                   "icon": "lucide-folder-closed",
-                  "title": "Files"
+                  "title": "Explorador de arquivos"
                 }
               },
               {
@@ -1342,7 +61,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:dataview",
+                    "query": "tag:#info",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -1360,7 +79,46 @@
                   "type": "bookmarks",
                   "state": {},
                   "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
+                  "title": "Marcadores"
+                }
+              },
+              {
+                "id": "4b823fe391e9ac40",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 344.5
+      },
+      "right": {
+        "id": "3703f7d8eaeb01fd",
+        "type": "split",
+        "children": [
+          {
+            "id": "c4e9b6b7a7b97459",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "10e25e51bf00f4f9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "X/Assets/_atalhos.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "_atalhos"
                 }
               },
               {
@@ -1375,45 +133,22 @@
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Sumário de README"
+                  "title": "Outline of Boas Vindas"
                 }
               },
               {
-                "id": "d7761548f734b1cf",
+                "id": "2386ef8588c3dc8e",
                 "type": "leaf",
                 "state": {
-                  "type": "recent-files",
-                  "state": {},
-                  "icon": "clock",
-                  "title": "Recent files"
-                }
-              }
-            ],
-            "currentTab": 4
-          }
-        ],
-        "direction": "horizontal",
-        "width": 311.5,
-        "collapsed": true
-      },
-      "right": {
-        "id": "3703f7d8eaeb01fd",
-        "type": "split",
-        "children": [
-          {
-            "id": "c4e9b6b7a7b97459",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "40be355d2ebab86f",
-                "type": "leaf",
-                "state": {
-                  "type": "file-properties",
+                  "type": "tag",
                   "state": {
-                    "file": "README.md"
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
                   },
-                  "icon": "lucide-info",
-                  "title": "File properties for README"
+                  "icon": "lucide-tags",
+                  "title": "Tags"
                 }
               },
               {
@@ -1431,6 +166,32 @@
                 }
               },
               {
+                "id": "40be355d2ebab86f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "X/Templates/Format/T-leitura.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "File properties for Boas Vindas"
+                }
+              },
+              {
+                "id": "7a2141420f060740",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Boas Vindas.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Boas Vindas"
+                }
+              },
+              {
                 "id": "5d297ae10b81be7a",
                 "type": "leaf",
                 "state": {
@@ -1441,63 +202,12 @@
                 }
               },
               {
-                "id": "6403af482c6156e6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "X/Assets/start-here.md",
-                    "mode": "preview",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "start-here"
-                }
-              }
-            ],
-            "currentTab": 3
-          },
-          {
-            "id": "13b64413b6cc874a",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2386ef8588c3dc8e",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Etiquetas"
-                }
-              },
-              {
-                "id": "42a6ccda79921454",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "Atlas/Mapas/_Mapas.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from README"
-                }
-              },
-              {
-                "id": "245a49aab2c5cdb7",
+                "id": "ddec9df386de7db5",
                 "type": "leaf",
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Atlas/Bases/X.base",
+                    "file": "🏠.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1507,16 +217,75 @@
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-coming-in",
-                  "title": "Links inversos para X"
+                  "title": "Backlinks for Boas Vindas"
                 }
-              },
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 444.47265625,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "random-note:Abrir nota aleatória": false,
+          "audio-recorder:Começar/parar a gravação de áudio": false,
+          "switcher:Abrir a troca rápida": false,
+          "graph:Abrir visualização em gráfico": false,
+          "canvas:Criar novo canvas": false,
+          "daily-notes:Abrir a nota de hoje": false,
+          "templates:Inserir modelo": false,
+          "command-palette:Abrir paleta de comandos": false,
+          "workspaces:Gerenciar leiautes da área de trabalho": false,
+          "bases:Criar nova base": false,
+          "callout-manager:Insert Callout": false,
+          "templater-obsidian:Templater": false,
+          "periodic-notes:Open today": false
+        }
+      },
+      "active": "b34c0f902b1265c0",
+      "mtime": "2026-08-23T15:38:31-03:00"
+    },
+    "00 - Primeira Nota": {
+      "main": {
+        "id": "2178b4b13ad8d220",
+        "type": "split",
+        "children": [
+          {
+            "id": "8beddab57634af6f",
+            "type": "tabs",
+            "children": [
               {
-                "id": "e2a8f5d097fb482f",
+                "id": "a5b60ee37e352677",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "01 Primeira Nota"
+                }
+              }
+            ]
+          },
+          {
+            "id": "3ac19512898ebf40",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "aabad12ac07f1863",
                 "type": "leaf",
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Boas Vindas.md",
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -1539,12 +308,1421 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 1,
-                      "close": false
+                      "scale": 1.5,
+                      "close": true
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Gráfico de Boas Vindas"
+                  "title": "Gráfico de 01 Primeira Nota"
+                }
+              },
+              {
+                "id": "002594c9df6905f7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "X/Assets/_atalhos.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "_atalhos"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "da223467db4c9158",
+        "type": "split",
+        "children": [
+          {
+            "id": "3ba83bbb7904c6a3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b34c0f902b1265c0",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Explorador de arquivos"
+                }
+              },
+              {
+                "id": "670d58b439085802",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "X/start-here.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "start-here"
+                }
+              },
+              {
+                "id": "c3dcb494a0674c29",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#info",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "e0f7509dece0369f",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Marcadores"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 423.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "3703f7d8eaeb01fd",
+        "type": "split",
+        "children": [
+          {
+            "id": "c4e9b6b7a7b97459",
+            "type": "tabs",
+            "dimension": 43.47014925373134,
+            "children": [
+              {
+                "id": "f7119f2528338e15",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "+/Pro Vault.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of como + funciona"
+                }
+              },
+              {
+                "id": "2386ef8588c3dc8e",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "1ebc49deb54dd0f7",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "Todas as propriedades"
+                }
+              },
+              {
+                "id": "40be355d2ebab86f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "🏠.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "File properties for como + funciona"
+                }
+              },
+              {
+                "id": "5d297ae10b81be7a",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              }
+            ],
+            "currentTab": 4
+          },
+          {
+            "id": "3954ea8e597c4a31",
+            "type": "tabs",
+            "dimension": 56.529850746268664,
+            "children": [
+              {
+                "id": "c133cbfbc6b00289",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Atlas/+ Entendendo o básico Obsidian/09 ARC Framework.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for A-Daily Note Template"
+                }
+              },
+              {
+                "id": "7a2141420f060740",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Links de saída para 01 Primeira Nota"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 381.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Abrir a troca rápida": false,
+          "graph:Abrir visualização em gráfico": false,
+          "canvas:Criar novo canvas": false,
+          "daily-notes:Abrir a nota de hoje": false,
+          "templates:Inserir modelo": false,
+          "command-palette:Abrir paleta de comandos": false,
+          "workspaces:Gerenciar leiautes da área de trabalho": false,
+          "bases:Criar nova base": false,
+          "callout-manager:Insert Callout": false,
+          "templater-obsidian:Templater": false,
+          "periodic-notes:Open today": false
+        }
+      },
+      "active": "a5b60ee37e352677",
+      "mtime": "2026-02-24T04:16:04-03:00"
+    },
+    "01 - Entendendo básico - markdown - Propriedades - Coleções ": {
+      "main": {
+        "id": "2178b4b13ad8d220",
+        "type": "split",
+        "children": [
+          {
+            "id": "e06bba1a95771335",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3c947ee9514f77e8",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "02 Markdown"
+                }
+              },
+              {
+                "id": "853f6703e0d58110",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/04 Entendendo Coleções.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "04 Entendendo Coleções"
+                }
+              },
+              {
+                "id": "c6a6e99a42009eb7",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/06 Boas Práticas de Classificação.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "06 Boas Práticas de Classificação"
+                }
+              },
+              {
+                "id": "101d506921fab62a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/07 Sugestões de Classificações.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "07 Sugestões de Classificações"
+                }
+              }
+            ],
+            "stacked": true
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "da223467db4c9158",
+        "type": "split",
+        "children": [
+          {
+            "id": "3ba83bbb7904c6a3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f7119f2528338e15",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Sumário de 02 Markdown"
+                }
+              },
+              {
+                "id": "b34c0f902b1265c0",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Explorador de arquivos"
+                }
+              },
+              {
+                "id": "c3dcb494a0674c29",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#info",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "e0f7509dece0369f",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "50e7c6b7f44ce329",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 370.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "3703f7d8eaeb01fd",
+        "type": "split",
+        "children": [
+          {
+            "id": "c4e9b6b7a7b97459",
+            "type": "tabs",
+            "dimension": 33.65079365079365,
+            "children": [
+              {
+                "id": "2386ef8588c3dc8e",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "57aa51bba2f4068c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "X/start-here.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "start-here"
+                }
+              },
+              {
+                "id": "1ebc49deb54dd0f7",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "Todas as propriedades"
+                }
+              },
+              {
+                "id": "40be355d2ebab86f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "Atlas/+ Entendendo o básico Obsidian/01 Markdown.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "File properties for 01 Markdown"
+                }
+              },
+              {
+                "id": "5d297ae10b81be7a",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "2320aac022ce5cd8",
+            "type": "tabs",
+            "dimension": 66.34920634920634,
+            "children": [
+              {
+                "id": "d832fe089cbd3a82",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "X/Assets/_atalhos.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "_atalhos"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 381.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "random-note:Abrir nota aleatória": false,
+          "audio-recorder:Começar/parar a gravação de áudio": false,
+          "switcher:Abrir a troca rápida": false,
+          "graph:Abrir visualização em gráfico": false,
+          "canvas:Criar novo canvas": false,
+          "daily-notes:Abrir a nota de hoje": false,
+          "templates:Inserir modelo": false,
+          "command-palette:Abrir paleta de comandos": false,
+          "workspaces:Gerenciar leiautes da área de trabalho": false,
+          "bases:Criar nova base": false,
+          "periodic-notes:Open today": false,
+          "callout-manager:Insert Callout": false,
+          "templater-obsidian:Templater": false
+        }
+      },
+      "active": "3c947ee9514f77e8",
+      "mtime": "2026-08-21T10:38:56-03:00"
+    },
+    "02 - Introdução ao ACE Method": {
+      "main": {
+        "id": "2178b4b13ad8d220",
+        "type": "split",
+        "children": [
+          {
+            "id": "8a0a38f57f5b73aa",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d038f20765040260",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/08 ACE Pack.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "08 ACE Pack"
+                }
+              }
+            ]
+          },
+          {
+            "id": "fde643304c26f34a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f291f4aba4ff75bc",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/08 ACE Pack.md",
+                    "options": {
+                      "collapse-filter": false,
+                      "search": "",
+                      "localJumps": 2,
+                      "localBacklinks": false,
+                      "localForelinks": true,
+                      "localInterlinks": true,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": false,
+                      "showArrow": true,
+                      "textFadeMultiplier": -0.1,
+                      "nodeSizeMultiplier": 1.87090657552083,
+                      "lineSizeMultiplier": 1.08534342447917,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Gráfico de 08 ACE Pack"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "da223467db4c9158",
+        "type": "split",
+        "children": [
+          {
+            "id": "3ba83bbb7904c6a3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b34c0f902b1265c0",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Explorador de arquivos"
+                }
+              },
+              {
+                "id": "c3dcb494a0674c29",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#info",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "e0f7509dece0369f",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "50e7c6b7f44ce329",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              }
+            ]
+          },
+          {
+            "id": "bf5ee084f69f404b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d8a42343aefe264c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "X/start-here.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "start-here"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 309.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "3703f7d8eaeb01fd",
+        "type": "split",
+        "children": [
+          {
+            "id": "c4e9b6b7a7b97459",
+            "type": "tabs",
+            "dimension": 50.093283582089555,
+            "children": [
+              {
+                "id": "2386ef8588c3dc8e",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "f7119f2528338e15",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Atlas/+ Entendendo o básico Obsidian/08 ACE Pack.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of 08 ACE Pack"
+                }
+              },
+              {
+                "id": "1ebc49deb54dd0f7",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "40be355d2ebab86f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/08 ACE Pack.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "File properties for 08 ACE Pack"
+                }
+              },
+              {
+                "id": "5d297ae10b81be7a",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "3954ea8e597c4a31",
+            "type": "tabs",
+            "dimension": 49.906716417910445,
+            "children": [
+              {
+                "id": "d832fe089cbd3a82",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "X/Assets/_atalhos.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "_atalhos"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 381.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Abrir a troca rápida": false,
+          "graph:Abrir visualização em gráfico": false,
+          "canvas:Criar novo canvas": false,
+          "daily-notes:Abrir a nota de hoje": false,
+          "templates:Inserir modelo": false,
+          "command-palette:Abrir paleta de comandos": false,
+          "workspaces:Gerenciar leiautes da área de trabalho": false,
+          "bases:Criar nova base": false,
+          "periodic-notes:Open today": false,
+          "callout-manager:Insert Callout": false,
+          "templater-obsidian:Templater": false
+        }
+      },
+      "active": "f291f4aba4ff75bc",
+      "mtime": "2026-06-07T12:09:37-03:00"
+    },
+    "03 - ARC Framework": {
+      "main": {
+        "id": "2178b4b13ad8d220",
+        "type": "split",
+        "children": [
+          {
+            "id": "8beddab57634af6f",
+            "type": "tabs",
+            "dimension": 54.83870967741935,
+            "children": [
+              {
+                "id": "4b6b0f9ee2c5fdd6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/09 ARC Framework.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "09 ARC Framework"
+                }
+              }
+            ],
+            "stacked": true
+          },
+          {
+            "id": "ed6fc00e59eeea8e",
+            "type": "tabs",
+            "dimension": 45.16129032258064,
+            "children": [
+              {
+                "id": "8cdfd2b2bafb8f62",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/09 ARC Framework.md",
+                    "options": {
+                      "collapse-filter": false,
+                      "search": "",
+                      "localJumps": 2,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": false,
+                      "showArrow": true,
+                      "textFadeMultiplier": -2,
+                      "nodeSizeMultiplier": 1.70741373697917,
+                      "lineSizeMultiplier": 1.13399251302083,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.6666666666666666,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Gráfico de 09 ARC Framework"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "da223467db4c9158",
+        "type": "split",
+        "children": [
+          {
+            "id": "3ba83bbb7904c6a3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b34c0f902b1265c0",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Explorador de arquivos"
+                }
+              },
+              {
+                "id": "c3dcb494a0674c29",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#info",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "e0f7509dece0369f",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          },
+          {
+            "id": "e741ee606618deaa",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "49384977d5b5fdd1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "X/start-here.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "start-here"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 309.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "3703f7d8eaeb01fd",
+        "type": "split",
+        "children": [
+          {
+            "id": "c4e9b6b7a7b97459",
+            "type": "tabs",
+            "dimension": 43.47014925373134,
+            "children": [
+              {
+                "id": "f7119f2528338e15",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Atlas/+ Entendendo o básico Obsidian/08 ACE Pack.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of 08 ACE Pack"
+                }
+              },
+              {
+                "id": "2386ef8588c3dc8e",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "1ebc49deb54dd0f7",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "40be355d2ebab86f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "X/Templates/Format/A-Daily Note Template.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "File properties for como + funciona"
+                }
+              },
+              {
+                "id": "7a2141420f060740",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/09 ARC Framework.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Links de saída para 09 ARC Framework"
+                }
+              },
+              {
+                "id": "5d297ae10b81be7a",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              }
+            ],
+            "currentTab": 4
+          },
+          {
+            "id": "3954ea8e597c4a31",
+            "type": "tabs",
+            "dimension": 56.529850746268664,
+            "children": [
+              {
+                "id": "4a14dbc185b2a8da",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Atlas/Conceitos/+ Entendendo o básico Obsidian/09 ARC Framework.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.6666666666666666,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Gráfico de 09 ARC Framework"
+                }
+              },
+              {
+                "id": "c133cbfbc6b00289",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Atlas/+ Entendendo o básico Obsidian/09 ARC Framework.md",
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for 09 ARC Framework"
+                }
+              },
+              {
+                "id": "d832fe089cbd3a82",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "X/Assets/_atalhos.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "_atalhos"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 381.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Abrir a troca rápida": false,
+          "graph:Abrir visualização em gráfico": false,
+          "canvas:Criar novo canvas": false,
+          "daily-notes:Abrir a nota de hoje": false,
+          "templates:Inserir modelo": false,
+          "command-palette:Abrir paleta de comandos": false,
+          "workspaces:Gerenciar leiautes da área de trabalho": false,
+          "bases:Criar nova base": false,
+          "periodic-notes:Open today": false,
+          "callout-manager:Insert Callout": false,
+          "templater-obsidian:Templater": false
+        }
+      },
+      "active": "8cdfd2b2bafb8f62",
+      "mtime": "2026-06-07T12:10:36-03:00"
+    },
+    "04 - PKM index": {
+      "main": {
+        "id": "2178b4b13ad8d220",
+        "type": "split",
+        "children": [
+          {
+            "id": "8beddab57634af6f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "22262c9526cbabe9",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Atlas/Index & Bases/+ Gestão de Conhecimento.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "+ Gestão de Conhecimento"
+                }
+              }
+            ],
+            "stacked": true
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "da223467db4c9158",
+        "type": "split",
+        "children": [
+          {
+            "id": "3ba83bbb7904c6a3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b34c0f902b1265c0",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Explorador de arquivos"
+                }
+              },
+              {
+                "id": "c3dcb494a0674c29",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#info",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "e0f7509dece0369f",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 309.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "3703f7d8eaeb01fd",
+        "type": "split",
+        "children": [
+          {
+            "id": "c4e9b6b7a7b97459",
+            "type": "tabs",
+            "dimension": 43.47014925373134,
+            "children": [
+              {
+                "id": "f7119f2528338e15",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Atlas/Index & Bases/+ Gestão de Conhecimento.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Sumário de + Gestão de Conhecimento"
+                }
+              },
+              {
+                "id": "2386ef8588c3dc8e",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Etiquetas"
+                }
+              },
+              {
+                "id": "1ebc49deb54dd0f7",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "Todas as propriedades"
+                }
+              },
+              {
+                "id": "40be355d2ebab86f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "Atlas/Index & Bases/+ Gestão de Conhecimento.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "Propriedades do arquivo + Gestão de Conhecimento"
+                }
+              },
+              {
+                "id": "5d297ae10b81be7a",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              }
+            ],
+            "currentTab": 4
+          },
+          {
+            "id": "3954ea8e597c4a31",
+            "type": "tabs",
+            "dimension": 56.529850746268664,
+            "children": [
+              {
+                "id": "c133cbfbc6b00289",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "X/Assets/_atalhos.md",
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Links inversos para _atalhos"
+                }
+              },
+              {
+                "id": "d832fe089cbd3a82",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "X/Assets/_atalhos.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "_atalhos"
+                }
+              },
+              {
+                "id": "7a2141420f060740",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "X/Assets/_atalhos.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Links de saída para _atalhos"
+                }
+              },
+              {
+                "id": "6b8ea16bcb1cb09b",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Atlas/Index & Bases/+ Gestão de Conhecimento.md",
+                    "options": {
+                      "collapse-filter": false,
+                      "search": "",
+                      "localJumps": 2,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": true,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": false,
+                      "showArrow": false,
+                      "textFadeMultiplier": -0.9,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": false,
+                      "centerStrength": 0.5546875,
+                      "repelStrength": 9.18782552083333,
+                      "linkStrength": 0.7255859375,
+                      "linkDistance": 113,
+                      "scale": 1,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Grafo local"
                 }
               }
             ],
@@ -1552,29 +1730,734 @@
           }
         ],
         "direction": "horizontal",
-        "width": 335.5,
-        "collapsed": true
+        "width": 381.5
       },
       "left-ribbon": {
         "hiddenItems": {
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "daily-notes:Open today's daily note": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "random-note:Open random note": false,
-          "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false,
-          "bases:Create new base": false,
+          "switcher:Abrir a troca rápida": false,
+          "graph:Abrir visualização em gráfico": false,
+          "canvas:Criar novo canvas": false,
+          "daily-notes:Abrir a nota de hoje": false,
+          "templates:Inserir modelo": false,
+          "command-palette:Abrir paleta de comandos": false,
+          "workspaces:Gerenciar leiautes da área de trabalho": false,
+          "bases:Criar nova base": false,
           "periodic-notes:Open today": false,
           "callout-manager:Insert Callout": false,
           "templater-obsidian:Templater": false
         }
       },
-      "active": "8d37f7ed13d6930a",
-      "mtime": "2026-07-30T16:30:03-03:00"
+      "active": "5d297ae10b81be7a",
+      "mtime": "2026-08-21T09:54:52-03:00"
+    },
+    "05 - Templates e Assets": {
+      "main": {
+        "id": "2178b4b13ad8d220",
+        "type": "split",
+        "children": [
+          {
+            "id": "8beddab57634af6f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d76d7b63e0afbab3",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "X/Assets/Dataview/@-templates.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "@-templates"
+                }
+              }
+            ]
+          },
+          {
+            "id": "e125e24094fdc972",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d6419b642eb8ed81",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "X/Templates/Format/A-Daily Note Template.md",
+                    "mode": "source",
+                    "source": true,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "A-Daily Note Template"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "da223467db4c9158",
+        "type": "split",
+        "children": [
+          {
+            "id": "3ba83bbb7904c6a3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b34c0f902b1265c0",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Explorador de arquivos"
+                }
+              },
+              {
+                "id": "c3dcb494a0674c29",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#info",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Procurar"
+                }
+              },
+              {
+                "id": "e0f7509dece0369f",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Marcadores"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 309.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "3703f7d8eaeb01fd",
+        "type": "split",
+        "children": [
+          {
+            "id": "c4e9b6b7a7b97459",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f7119f2528338e15",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "X/Assets/Dataview/@-templates.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of @-templates"
+                }
+              },
+              {
+                "id": "2386ef8588c3dc8e",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "1ebc49deb54dd0f7",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "Todas as propriedades"
+                }
+              },
+              {
+                "id": "40be355d2ebab86f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "X/Assets/Dataview/@-templates.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "Propriedades do arquivo @-templates"
+                }
+              },
+              {
+                "id": "7a2141420f060740",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "X/Assets/Dataview/@-templates.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from @-templates"
+                }
+              },
+              {
+                "id": "5d297ae10b81be7a",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "horizontal",
+        "width": 381.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Abrir a troca rápida": false,
+          "graph:Abrir visualização em gráfico": false,
+          "canvas:Criar novo canvas": false,
+          "daily-notes:Abrir a nota de hoje": false,
+          "templates:Inserir modelo": false,
+          "command-palette:Abrir paleta de comandos": false,
+          "workspaces:Gerenciar leiautes da área de trabalho": false,
+          "bases:Criar nova base": false,
+          "periodic-notes:Open today": false,
+          "callout-manager:Insert Callout": false,
+          "templater-obsidian:Templater": false
+        }
+      },
+      "active": "d76d7b63e0afbab3",
+      "mtime": "2026-01-25T11:37:48-03:00"
+    },
+    "06 - Base Todas Notas": {
+      "main": {
+        "id": "2178b4b13ad8d220",
+        "type": "split",
+        "children": [
+          {
+            "id": "e125e24094fdc972",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b431c59ed53ec492",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "bases",
+                  "state": {
+                    "file": "+/Obsidian Base.base",
+                    "viewName": "Todas Notas"
+                  },
+                  "pinned": true,
+                  "icon": "lucide-table",
+                  "title": "Obsidian Base"
+                }
+              }
+            ],
+            "stacked": true
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "da223467db4c9158",
+        "type": "split",
+        "children": [
+          {
+            "id": "3ba83bbb7904c6a3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b34c0f902b1265c0",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Explorador de arquivos"
+                }
+              },
+              {
+                "id": "c3dcb494a0674c29",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#info",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Procurar"
+                }
+              },
+              {
+                "id": "e0f7509dece0369f",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Marcadores"
+                }
+              },
+              {
+                "id": "4b823fe391e9ac40",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "clock",
+                  "title": "Recent files"
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "horizontal",
+        "width": 344.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "3703f7d8eaeb01fd",
+        "type": "split",
+        "children": [
+          {
+            "id": "c4e9b6b7a7b97459",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "10e25e51bf00f4f9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "X/Assets/_atalhos.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "_atalhos"
+                }
+              },
+              {
+                "id": "f7119f2528338e15",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Atlas/Index & Bases/+ Gestão de Conhecimento.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Boas Vindas"
+                }
+              },
+              {
+                "id": "2386ef8588c3dc8e",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "1ebc49deb54dd0f7",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "Todas as propriedades"
+                }
+              },
+              {
+                "id": "40be355d2ebab86f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "+/Obsidian Base.base"
+                  },
+                  "icon": "lucide-info",
+                  "title": "File properties for Boas Vindas"
+                }
+              },
+              {
+                "id": "7a2141420f060740",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Boas Vindas.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Boas Vindas"
+                }
+              },
+              {
+                "id": "5d297ae10b81be7a",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              },
+              {
+                "id": "ddec9df386de7db5",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Boas Vindas.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Boas Vindas"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 470.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Abrir a troca rápida": false,
+          "graph:Abrir visualização em gráfico": false,
+          "canvas:Criar novo canvas": false,
+          "daily-notes:Abrir a nota de hoje": false,
+          "templates:Inserir modelo": false,
+          "command-palette:Abrir paleta de comandos": false,
+          "workspaces:Gerenciar leiautes da área de trabalho": false,
+          "bases:Criar nova base": false,
+          "callout-manager:Insert Callout": false,
+          "templater-obsidian:Templater": false,
+          "periodic-notes:Open today": false
+        }
+      },
+      "active": "b431c59ed53ec492",
+      "mtime": "2026-06-07T12:16:53-03:00"
+    },
+    "Considere apoiar o projeto 💛": {
+      "main": {
+        "id": "2178b4b13ad8d220",
+        "type": "split",
+        "children": [
+          {
+            "id": "e125e24094fdc972",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4cef4970b503894c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Considere apoiar o projeto 💛.md",
+                    "mode": "preview",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Considere apoiar o projeto 💛"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "da223467db4c9158",
+        "type": "split",
+        "children": [
+          {
+            "id": "3ba83bbb7904c6a3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b34c0f902b1265c0",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Explorador de arquivos"
+                }
+              },
+              {
+                "id": "c3dcb494a0674c29",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#info",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Procurar"
+                }
+              },
+              {
+                "id": "e0f7509dece0369f",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Marcadores"
+                }
+              },
+              {
+                "id": "4b823fe391e9ac40",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 344.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "3703f7d8eaeb01fd",
+        "type": "split",
+        "children": [
+          {
+            "id": "c4e9b6b7a7b97459",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "10e25e51bf00f4f9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "X/Assets/_atalhos.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "_atalhos"
+                }
+              },
+              {
+                "id": "f7119f2528338e15",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "README.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of README"
+                }
+              },
+              {
+                "id": "2386ef8588c3dc8e",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "1ebc49deb54dd0f7",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "Todas as propriedades"
+                }
+              },
+              {
+                "id": "40be355d2ebab86f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "Boas Vindas.md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "File properties for Boas Vindas"
+                }
+              },
+              {
+                "id": "7a2141420f060740",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Boas Vindas.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Boas Vindas"
+                }
+              },
+              {
+                "id": "5d297ae10b81be7a",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              },
+              {
+                "id": "ddec9df386de7db5",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Boas Vindas.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Boas Vindas"
+                }
+              }
+            ],
+            "currentTab": 6
+          }
+        ],
+        "direction": "horizontal",
+        "width": 470.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Abrir a troca rápida": false,
+          "graph:Abrir visualização em gráfico": false,
+          "canvas:Criar novo canvas": false,
+          "daily-notes:Abrir a nota de hoje": false,
+          "templates:Inserir modelo": false,
+          "command-palette:Abrir paleta de comandos": false,
+          "workspaces:Gerenciar leiautes da área de trabalho": false,
+          "bases:Criar nova base": false,
+          "callout-manager:Insert Callout": false,
+          "templater-obsidian:Templater": false,
+          "periodic-notes:Open today": false
+        }
+      },
+      "active": "4cef4970b503894c",
+      "mtime": "2026-06-07T12:17:52-03:00"
     }
   },
-  "active": "Considere apoiar o projeto 💛"
+  "active": "Começe Aqui"
 }

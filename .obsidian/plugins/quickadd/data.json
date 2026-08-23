@@ -72,7 +72,11 @@
                 "insertAtEnd": true,
                 "considerSubsections": false,
                 "createIfNotFound": true,
-                "createIfNotFoundLocation": "bottom"
+                "createIfNotFoundLocation": "bottom",
+                "inline": false,
+                "replaceExisting": false,
+                "promptHeading": false,
+                "blankLineAfterMatchMode": "auto"
               },
               "newLineCapture": {
                 "enabled": false,
@@ -86,7 +90,15 @@
                 "direction": "vertical",
                 "mode": "default",
                 "focus": true
-              }
+              },
+              "insertBefore": {
+                "enabled": false,
+                "before": "",
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
+              },
+              "activeFileWritePosition": "cursor",
+              "captureToCanvasNodeId": ""
             },
             {
               "id": "5a23f7f7-a1cb-4a40-a68f-0c0df837dbe6",
@@ -267,7 +279,11 @@
                 "insertAtEnd": true,
                 "considerSubsections": false,
                 "createIfNotFound": true,
-                "createIfNotFoundLocation": "bottom"
+                "createIfNotFoundLocation": "bottom",
+                "inline": false,
+                "replaceExisting": false,
+                "promptHeading": false,
+                "blankLineAfterMatchMode": "auto"
               },
               "newLineCapture": {
                 "enabled": false,
@@ -281,46 +297,15 @@
                 "direction": "vertical",
                 "mode": "default",
                 "focus": true
-              }
-            },
-            {
-              "id": "d6571560-c6a1-46c3-ab9a-da9997d11245",
-              "name": "💡 Ideia",
-              "type": "Capture",
-              "command": true,
-              "appendLink": false,
-              "captureTo": "Projects & Areas/💡 Ideas.md",
-              "captureToActiveFile": false,
-              "createFileIfItDoesntExist": {
-                "enabled": true,
-                "createWithTemplate": true,
-                "template": "X/Templates/Format/A-Daily Note Template.md"
               },
-              "format": {
-                "enabled": true,
-                "format": "💡 {{value}} - {{time}} \\ [[{{date}}]]"
-              },
-              "insertAfter": {
+              "insertBefore": {
                 "enabled": false,
-                "after": "# Capture",
-                "insertAtEnd": true,
-                "considerSubsections": false,
-                "createIfNotFound": true,
-                "createIfNotFoundLocation": "bottom"
+                "before": "",
+                "createIfNotFound": false,
+                "createIfNotFoundLocation": "top"
               },
-              "newLineCapture": {
-                "enabled": false,
-                "direction": "below"
-              },
-              "prepend": false,
-              "task": true,
-              "openFile": false,
-              "fileOpening": {
-                "location": "tab",
-                "direction": "vertical",
-                "mode": "default",
-                "focus": true
-              }
+              "activeFileWritePosition": "cursor",
+              "captureToCanvasNodeId": ""
             },
             {
               "id": "85225985-d482-46cf-a284-6e887a54d6d4",
@@ -838,13 +823,18 @@
   "inputPrompt": "single-line",
   "persistInputPromptDrafts": true,
   "useSelectionAsCaptureValue": true,
+  "searchNestedChoices": true,
+  "templateFolderLauncherRow": "bottom",
   "devMode": false,
-  "templateFolderPath": "X/Templates/Format",
+  "templateFolderPaths": [
+    "X/Templates/Format"
+  ],
   "announceUpdates": "all",
-  "version": "2.12.3",
+  "version": "2.22.0",
   "globalVariables": {},
   "onePageInputEnabled": false,
   "disableOnlineFeatures": true,
+  "enableUriCallbacks": false,
   "enableRibbonIcon": false,
   "showCaptureNotification": true,
   "showInputCancellationNotification": false,
@@ -892,28 +882,73 @@
             "maxTokens": 8192
           },
           {
-            "name": "gpt-4-32k",
-            "maxTokens": 32768
-          },
-          {
-            "name": "gpt-4-1106-preview",
-            "maxTokens": 128000
-          },
-          {
             "name": "gpt-4-turbo",
             "maxTokens": 128000
           },
           {
             "name": "gpt-4o",
-            "maxTokens": 128000
+            "maxTokens": 128000,
+            "maxOutputTokens": 16384,
+            "supportsTemperature": true
           },
           {
             "name": "gpt-4o-mini",
-            "maxTokens": 128000
+            "maxTokens": 128000,
+            "maxOutputTokens": 16384,
+            "supportsTemperature": true
+          },
+          {
+            "name": "gpt-5.5",
+            "maxTokens": 1050000,
+            "maxOutputTokens": 128000,
+            "supportsTemperature": false
+          },
+          {
+            "name": "gpt-5.4",
+            "maxTokens": 1050000,
+            "maxOutputTokens": 128000,
+            "supportsTemperature": false
+          },
+          {
+            "name": "gpt-5.4-mini",
+            "maxTokens": 400000,
+            "maxOutputTokens": 128000,
+            "supportsTemperature": false
+          },
+          {
+            "name": "gpt-5.4-nano",
+            "maxTokens": 400000,
+            "maxOutputTokens": 128000,
+            "supportsTemperature": false
+          },
+          {
+            "name": "gpt-4.1",
+            "maxTokens": 1047576,
+            "maxOutputTokens": 32768,
+            "supportsTemperature": true
+          },
+          {
+            "name": "gpt-4.1-mini",
+            "maxTokens": 1047576,
+            "maxOutputTokens": 32768,
+            "supportsTemperature": true
+          },
+          {
+            "name": "o3",
+            "maxTokens": 200000,
+            "maxOutputTokens": 100000,
+            "supportsTemperature": false
+          },
+          {
+            "name": "o4-mini",
+            "maxTokens": 200000,
+            "maxOutputTokens": 100000,
+            "supportsTemperature": false
           }
         ],
-        "autoSyncModels": false,
-        "modelSource": "auto"
+        "autoSyncModels": true,
+        "modelSource": "modelsDev",
+        "id": "openai"
       },
       {
         "name": "Gemini",
@@ -921,20 +956,57 @@
         "apiKey": "",
         "models": [
           {
-            "name": "gemini-1.5-pro",
-            "maxTokens": 1000000
+            "name": "gemini-3.5-flash",
+            "maxTokens": 1048576,
+            "maxOutputTokens": 65536,
+            "supportsTemperature": true
           },
           {
-            "name": "gemini-1.5-flash",
-            "maxTokens": 1000000
+            "name": "gemini-3.1-pro-preview",
+            "maxTokens": 1048576,
+            "maxOutputTokens": 65536,
+            "supportsTemperature": true
           },
           {
-            "name": "gemini-1.5-flash-8b",
-            "maxTokens": 1000000
+            "name": "gemini-3.1-flash-lite",
+            "maxTokens": 1048576,
+            "maxOutputTokens": 65536,
+            "supportsTemperature": true
+          },
+          {
+            "name": "gemini-3-pro-preview",
+            "maxTokens": 1048576,
+            "maxOutputTokens": 65536,
+            "supportsTemperature": true
+          },
+          {
+            "name": "gemini-3-flash-preview",
+            "maxTokens": 1048576,
+            "maxOutputTokens": 65536,
+            "supportsTemperature": true
+          },
+          {
+            "name": "gemini-2.5-pro",
+            "maxTokens": 1048576,
+            "maxOutputTokens": 65536,
+            "supportsTemperature": true
+          },
+          {
+            "name": "gemini-2.5-flash",
+            "maxTokens": 1048576,
+            "maxOutputTokens": 65536,
+            "supportsTemperature": true
+          },
+          {
+            "name": "gemini-2.5-flash-lite",
+            "maxTokens": 1048576,
+            "maxOutputTokens": 65536,
+            "supportsTemperature": true
           }
         ],
-        "autoSyncModels": false,
-        "modelSource": "auto"
+        "autoSyncModels": true,
+        "modelSource": "auto",
+        "id": "gemini"
       }
     ]
   },
@@ -951,7 +1023,10 @@
     "repairTemplateFileExistsBehavior": true,
     "backfillFileOpeningDefaults": true,
     "setProviderModelDiscoveryMode": true,
-    "migrateProviderApiKeysToSecretStorage": true
+    "migrateProviderApiKeysToSecretStorage": true,
+    "migrateToMultipleTemplateFolders": true,
+    "refreshStaleDefaultModelSeeds": true,
+    "pinAiModelRefs": true
   },
   "macros": []
 }

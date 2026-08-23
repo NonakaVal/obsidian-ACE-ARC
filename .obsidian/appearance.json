@@ -22,9 +22,9 @@
     "Sidenote in Tufte-style using Sidenote-Auto-Adjust-Module",
     "Sidenote Auto-Adjust Module showcase-template"
   ],
-  "baseFontSize": 15,
+  "baseFontSize": 14,
   "showRibbon": true,
-  "cssTheme": "Things",
+  "cssTheme": "Border",
   "showViewHeader": true,
   "accentColor": "",
   "nativeMenus": false

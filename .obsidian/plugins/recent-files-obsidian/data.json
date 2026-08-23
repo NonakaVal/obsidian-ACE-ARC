@@ -5,6 +5,58 @@
       "path": "Boas Vindas.md"
     },
     {
+      "basename": "_atalhos",
+      "path": "X/Assets/_atalhos.md"
+    },
+    {
+      "basename": "As 3 Areas ACE",
+      "path": "+/As 3 Areas ACE.md"
+    },
+    {
+      "basename": "Estrutura base",
+      "path": "+/Estrutura base.md"
+    },
+    {
+      "basename": "A-Monthly-note-template",
+      "path": "X/Templates/Format/A-Monthly-note-template.md"
+    },
+    {
+      "basename": "A-Weekly Note Template",
+      "path": "X/Templates/Format/A-Weekly Note Template.md"
+    },
+    {
+      "basename": "A-Daily Note Template",
+      "path": "X/Templates/Format/A-Daily Note Template.md"
+    },
+    {
+      "basename": "2026-08-23",
+      "path": "Calendar & Review/Daily Notes/2026-08-23.md"
+    },
+    {
+      "basename": "🏠",
+      "path": "🏠.md"
+    },
+    {
+      "basename": "start-here",
+      "path": "X/start-here.md"
+    },
+    {
+      "basename": "02 Markdown",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md"
+    },
+    {
+      "basename": "01 Primeira Nota",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md"
+    },
+    {
+      "basename": "08 ACE Pack",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/08 ACE Pack.md"
+    },
+    {
+      "basename": "+ Gestão de Conhecimento",
+      "path": "Atlas/Index & Bases/+ Gestão de Conhecimento.md"
+    },
+    {
       "basename": "Considere apoiar o projeto 💛",
       "path": "Considere apoiar o projeto 💛.md"
     },
@@ -13,188 +65,116 @@
       "path": "Créditos-Atribuições.md"
     },
     {
-      "basename": "X",
-      "path": "Atlas/Bases/X.base"
-    },
-    {
-      "basename": "_Conceitos",
-      "path": "Atlas/Concepts/_Conceitos.md"
-    },
-    {
-      "basename": "Base structure",
-      "path": "Atlas/Concepts/Base structure.md"
-    },
-    {
-      "basename": "Primeira Nota",
-      "path": "+/Primeira Nota.md"
-    },
-    {
-      "basename": "start-here",
-      "path": "X/Assets/start-here.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "@Media index",
-      "path": "X/Media/Media/Media/banners/@Media index.md"
-    },
-    {
-      "basename": "Pasted image 20251009183318",
-      "path": "X/Media/Media/Media/Pasted image 20251009183318.png"
-    },
-    {
-      "basename": "QRcodesApoio",
-      "path": "X/Assets/QRcodesApoio.md"
-    },
-    {
-      "basename": "Hotkeys",
-      "path": "X/Assets/Hotkeys.md"
-    },
-    {
-      "basename": "@_vault-snippets-dates",
-      "path": "X/Assets/Dataview/@_vault-snippets-dates.md"
-    },
-    {
-      "basename": "@-assets",
-      "path": "X/Assets/Dataview/@-assets.md"
-    },
-    {
-      "basename": "@-memos",
-      "path": "X/Assets/Dataview/@-memos.md"
-    },
-    {
-      "basename": "@-project-Archived",
-      "path": "X/Assets/Dataview/@-project-Archived.md"
-    },
-    {
       "basename": "Obsidian Base",
-      "path": "Atlas/Bases/Obsidian Base.base"
+      "path": "+/Obsidian Base.base"
     },
     {
-      "basename": "@_areas",
-      "path": "X/Assets/Dataview/@_areas.md"
-    },
-    {
-      "basename": "_Mapas",
-      "path": "Atlas/Mapas/_Mapas.md"
-    },
-    {
-      "basename": "2026-01-22",
-      "path": "Calendar & Review/Daily Notes/2026-01-22.md"
-    },
-    {
-      "basename": "Markdown",
-      "path": "Atlas/Concepts/Markdown.md"
-    },
-    {
-      "basename": "Roadmap de Estudo PKM",
-      "path": "Atlas/Mapas/Roadmap de Estudo PKM.md"
-    },
-    {
-      "basename": "Dashboard ++ Template",
-      "path": "Atlas/Mapas/Dashboard ++ Template.md"
-    },
-    {
-      "basename": "A-Daily Note Template",
-      "path": "X/Templates/Format/A-Daily Note Template.md"
+      "basename": "A-new-note",
+      "path": "X/Templates/Format/A-new-note.md"
     },
     {
       "basename": "@-templates",
       "path": "X/Assets/Dataview/@-templates.md"
     },
     {
-      "basename": "qrcodepix",
-      "path": "X/qrcodepix.png"
+      "basename": "B-Daily Note Template",
+      "path": "X/Templates/Format/B-Daily Note Template.md"
+    },
+    {
+      "basename": "T-new-note-base",
+      "path": "X/Templates/Format/T-new-note-base.md"
+    },
+    {
+      "basename": "%-codeblock",
+      "path": "X/Templates/Snippet/%-codeblock.md"
+    },
+    {
+      "basename": "06 Boas Práticas de Classificação",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/06 Boas Práticas de Classificação.md"
+    },
+    {
+      "basename": "09 ARC Framework",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/09 ARC Framework.md"
+    },
+    {
+      "basename": "07 Sugestões de Classificações",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/07 Sugestões de Classificações.md"
+    },
+    {
+      "basename": "04 Entendendo Coleções",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/04 Entendendo Coleções.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Gestão de Conhecimento",
+      "path": "X/Collections/Gestão de Conhecimento.md"
+    },
+    {
+      "basename": "Não definido",
+      "path": "X/Collections/Não definido.md"
+    },
+    {
+      "basename": "T-leitura",
+      "path": "X/Templates/Format/T-leitura.md"
+    },
+    {
+      "basename": "_ base template",
+      "path": "X/Templates/Format/_ base template.md"
     },
     {
       "basename": "Z-new-area-note",
       "path": "X/Templates/Format/Z-new-area-note.md"
     },
     {
+      "basename": "Z-project note",
+      "path": "X/Templates/Format/Z-project note.md"
+    },
+    {
       "basename": "T-new-area",
       "path": "X/Templates/Format/T-new-area.md"
     },
     {
-      "basename": "T-new-note-with-tag",
-      "path": "X/Templates/Format/T-new-note-with-tag.md"
+      "basename": "T-book",
+      "path": "X/Templates/Format/T-book.md"
     },
     {
-      "basename": "T-new-note",
-      "path": "X/Templates/Format/T-new-note.md"
+      "basename": "T memo",
+      "path": "X/Templates/Format/T memo.md"
     },
     {
-      "basename": "_created",
-      "path": "X/Templates/Format/_created.md"
+      "basename": "T-dot",
+      "path": "X/Templates/Format/T-dot.md"
     },
     {
-      "basename": "2025-12-11",
-      "path": "Calendar & Review/Daily Notes/2025-12-11.md"
+      "basename": "Boards",
+      "path": "Atlas/Index & Bases/Boards.base"
     },
     {
-      "basename": "2025-12-10",
-      "path": "Calendar & Review/Daily Notes/2025-12-10.md"
+      "basename": "@-collections",
+      "path": "X/Assets/Dataview/@-collections.md"
     },
     {
-      "basename": "%-callout-author",
-      "path": "X/Templates/Snippet/%-callout-author.md"
+      "basename": "05 Entendendo Mocs",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/05 Entendendo Mocs.md"
     },
     {
-      "basename": "%-add video with callout",
-      "path": "X/Templates/Snippet/%-add video with callout.md"
+      "basename": "03 Propriedades",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/03 Propriedades.md"
     },
     {
-      "basename": "@-get table last modified from folder",
-      "path": "X/Templates/Snippet/@-get table last modified from folder.md"
+      "basename": "10 dashboard++ (Template)",
+      "path": "Atlas/Index & Bases/10 dashboard++ (Template).md"
     },
     {
-      "basename": "@-~~~dataviewjs",
-      "path": "X/Templates/Snippet/@-~~~dataviewjs.md"
+      "basename": "QRcodesApoio",
+      "path": "X/Assets/QRcodesApoio.md"
     },
     {
-      "basename": "@- base embed",
-      "path": "X/Templates/Snippet/@- base embed.md"
-    },
-    {
-      "basename": "@ INTEGRAR DOCS",
-      "path": "X/Templates/Snippet/@ INTEGRAR DOCS.md"
-    },
-    {
-      "basename": "@ dataview simple lock",
-      "path": "X/Templates/Snippet/@ dataview simple lock.md"
-    },
-    {
-      "basename": "@ adicionar-imagem-centralizada",
-      "path": "X/Templates/Snippet/@ adicionar-imagem-centralizada.md"
-    },
-    {
-      "basename": "_-img-link",
-      "path": "X/Templates/Snippet/_-img-link.md"
-    },
-    {
-      "basename": "_-folder suggester",
-      "path": "X/Templates/Snippet/_-folder suggester.md"
-    },
-    {
-      "basename": "_ tp_input templater",
-      "path": "X/Templates/Snippet/_ tp_input templater.md"
-    },
-    {
-      "basename": "_ tp created meta",
-      "path": "X/Templates/Snippet/_ tp created meta.md"
-    },
-    {
-      "basename": "_ tp const folderpath",
-      "path": "X/Templates/Snippet/_ tp const folderpath.md"
-    },
-    {
-      "basename": "_ tp clipboard",
-      "path": "X/Templates/Snippet/_ tp clipboard.md"
-    },
-    {
-      "basename": "_ tp all days week",
-      "path": "X/Templates/Snippet/_ tp all days week.md"
+      "basename": "T-new-project",
+      "path": "X/Templates/Format/T-new-project.md"
     }
   ],
   "omittedPaths": [],

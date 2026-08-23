@@ -4,5 +4,7 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "+",
-  "attachmentFolderPath": "X/Media"
+  "attachmentFolderPath": "X/Media",
+  "readableLineLength": true,
+  "strictLineBreaks": false
 }

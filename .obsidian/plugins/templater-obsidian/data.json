@@ -1,38 +1,28 @@
 {
+  "data_version": 2,
   "command_timeout": 5,
   "templates_folder": "X/Templates",
-  "templates_pairs": [
-    [
-      "",
-      ""
-    ]
-  ],
-  "trigger_on_file_creation": true,
+  "templates_pairs": [],
+  "trigger_on_file_creation_mode": "folder",
   "auto_jump_to_cursor": true,
-  "enable_system_commands": false,
+  "jump_to_cursor_after_file_name": true,
   "shell_path": "",
   "user_scripts_folder": "",
-  "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
-    }
-  ],
-  "enable_file_templates": false,
-  "file_templates": [
+      "folder": "+",
+      "template": "X/Templates/Format/A-new-note.md"
+    },
     {
-      "regex": ".*",
-      "template": ""
+      "folder": "Calendar & Review/Daily Notes",
+      "template": "X/Templates/Format/A-Daily Note Template.md"
     }
   ],
+  "file_templates": [],
   "syntax_highlighting": true,
-  "syntax_highlighting_mobile": false,
-  "enabled_templates_hotkeys": [
-    ""
-  ],
-  "startup_templates": [
-    ""
-  ],
-  "intellisense_render": 1
+  "syntax_highlighting_mobile": true,
+  "enabled_templates_hotkeys": [],
+  "startup_templates": [],
+  "intellisense_render": "1",
+  "ignore_folders_on_creation": []
 }

@@ -607,6 +607,15 @@ function toHexRGB(color) {
   return parts.map((c) => c.toString(16).padStart(2, "0")).join("");
 }
 var REGEX_RGB = /^\s*rgba?\(\s*([\d.]+%?)\s*[, ]\s*([\d.]+%?)\s*[, ]\s*([\d.]+%?\s*)\)\s*$/i;
+var REGEX_RGBA = /^\s*rgba\(\s*([\d.]+%?)\s*,\s*([\d.]+%?)\s*,\s*([\d.]+%?)\s*,\s*([\d.]+%?)\s*\)\s*$/i;
+var REGEX_HEX = /^\s*#([\da-f]{3}|[\da-f]{4}|[\da-f]{6}|[\da-f]{8})\s*$/i;
+function parseColor(color) {
+  const trimmed2 = color.trim();
+  if (trimmed2.startsWith("#")) {
+    return parseColorHex(color);
+  }
+  return parseColorRGBA(color);
+}
 function parseColorRGB(rgb) {
   const matches2 = REGEX_RGB.exec(rgb);
   if (matches2 === null)
@@ -625,6 +634,67 @@ function parseColorRGB(rgb) {
     b: rgbComponents[2]
   };
 }
+function parseColorRGBA(rgba) {
+  const asRGB = parseColorRGB(rgba);
+  if (asRGB != null) {
+    asRGB.a = 255;
+    return asRGB;
+  }
+  const matches2 = REGEX_RGBA.exec(rgba);
+  if (matches2 === null)
+    return null;
+  const components = matches2.slice(1).map((v) => v.trim());
+  const rgbComponents = rgbComponentStringsToNumber(components.slice(0, 3));
+  if (rgbComponents === null) {
+    return null;
+  }
+  let alphaComponent = 255;
+  const alphaString = components[3];
+  if (alphaString != null) {
+    if (alphaString.endsWith("%")) {
+      alphaComponent = Math.floor(parseFloat(alphaString.substring(0, alphaString.length - 1)) * 255 / 100);
+    } else {
+      alphaComponent = Math.floor(parseFloat(alphaString) * 255);
+    }
+  }
+  const allComponents = [...rgbComponents, alphaComponent];
+  if (void 0 !== allComponents.find((v) => isNaN(v) || v < 0 || v > 255)) {
+    return null;
+  }
+  return {
+    r: allComponents[0],
+    g: allComponents[1],
+    b: allComponents[2],
+    a: allComponents[3]
+  };
+}
+function parseColorHex(hex) {
+  const matches2 = REGEX_HEX.exec(hex);
+  if (matches2 === null)
+    return null;
+  const hexString = matches2[1];
+  let hexDigits;
+  if (hexString.length < 6)
+    hexDigits = hexString.split("").map((c) => `${c}${c}`);
+  else {
+    hexDigits = [hexString.slice(0, 2), hexString.slice(2, 4), hexString.slice(4, 6), hexString.slice(6, 8)].filter(
+      (v) => v != ""
+    );
+  }
+  const hexComponents = hexDigits.map((v) => parseInt(v, 16));
+  if (void 0 !== hexComponents.find((v) => isNaN(v) || v < 0 || v > 255)) {
+    return null;
+  }
+  const hexRGB = {
+    r: hexComponents[0],
+    g: hexComponents[1],
+    b: hexComponents[2]
+  };
+  if (hexComponents.length > 3) {
+    hexRGB.a = hexComponents[3];
+  }
+  return hexRGB;
+}
 function rgbComponentStringsToNumber(components) {
   if (components[0].endsWith("%")) {
     if (void 0 !== components.slice(1, 3).find((c) => !c.endsWith("%"))) {
@@ -640,7 +710,7 @@ function rgbComponentStringsToNumber(components) {
 
 // src/callout-util.ts
 function getColorFromCallout(callout) {
-  return parseColorRGB(`rgb(${callout.color})`);
+  return parseColor(callout.color);
 }
 function getTitleFromCallout(callout) {
   const matches2 = /^(.)(.*)/u.exec(callout.id);
@@ -1233,7 +1303,7 @@ var CalloutPreviewComponent = class extends import_obsidian8.Component {
       calloutEl.style.removeProperty("--callout-color");
       return this;
     }
-    calloutEl.style.setProperty("--callout-color", `${color.r}, ${color.g}, ${color.b}`);
+    calloutEl.style.setProperty("--callout-color", `rgb(${color.r}, ${color.g}, ${color.b})`);
     return this;
   }
   /**
@@ -1512,7 +1582,7 @@ function calloutSettingsToStyles(settings, environment) {
     }
     const { changes } = setting;
     if (changes.color != null)
-      styles.push(`--callout-color: ${changes.color}`);
+      styles.push(`--callout-color: rgb(${changes.color})`);
     if (changes.icon != null)
       styles.push(`--callout-icon: ${changes.icon}`);
     if (changes.customStyles != null)
@@ -3852,7 +3922,12 @@ var import_obsidian24 = require("obsidian");
 var import_obsidian23 = require("obsidian");
 
 // CHANGELOG.md
-var CHANGELOG_default = `# Version 1.1.1
+var CHANGELOG_default = `# Version 1.1.2
+
+> [!fix] Quick Fix for Obsidian 1.13  
+> Thank you to everyone who reported issues after upgrading to Obsidian 1.13. This release should fix any immediate issues.
+
+# Version 1.1.1
 
 > [!new] Export Callouts as CSS  
 > There's now a button to copy your callout changes.
@@ -3902,10 +3977,10 @@ The first release available on Obsidian's community plugin browser!
 `;
 
 // src/changelog.ts
-function getSections(parent) {
+function getSections(app, parent) {
   const frag = document.createDocumentFragment();
   const renderedEl = frag.createDiv();
-  import_obsidian23.MarkdownRenderer.renderMarkdown(CHANGELOG_default, renderedEl, "", parent);
+  import_obsidian23.MarkdownRenderer.render(app, CHANGELOG_default, renderedEl, "", parent);
   const sections = /* @__PURE__ */ new Map();
   let heading = null;
   let sectionContainer = frag.createEl("details");
@@ -3961,7 +4036,7 @@ var ChangelogPane = class extends UIPane {
     super();
     this.title = "Changelog";
     this.plugin = plugin;
-    const sections = getSections(plugin);
+    const sections = getSections(plugin.app, plugin);
     const frag = document.createDocumentFragment();
     this.changelogEl = frag.createDiv({ cls: "calloutmanager-changelog" });
     Array.from(sections.values()).forEach(({ version, containerEl: el }) => {
@@ -4028,7 +4103,7 @@ var ManagePluginPane = class extends UIPane {
     new import_obsidian24.Setting(containerEl).setHeading().setName("What's New").setDesc(`Version ${this.plugin.manifest.version}`).addExtraButton((btn) => {
       btn.setIcon("lucide-more-horizontal").setTooltip("More Changelogs").onClick(() => this.nav.open(new ChangelogPane(plugin)));
     });
-    const latestChanges = getSections(this.root).get(this.plugin.manifest.version);
+    const latestChanges = getSections(this.plugin.app, this.root).get(this.plugin.manifest.version);
     if (latestChanges != null) {
       const desc = document.createDocumentFragment();
       desc.appendChild(latestChanges.contentsEl);
@@ -4402,5 +4477,6 @@ var CalloutManagerPlugin = class extends import_obsidian25.Plugin {
     return this.api.destroyHandle(version, consumerPlugin);
   }
 };
+
 
 /* nosourcemap */

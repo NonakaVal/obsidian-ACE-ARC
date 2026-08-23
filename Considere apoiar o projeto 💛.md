@@ -4,6 +4,29 @@
 
 
 ![[QRcodesApoio]]
+
+---
+
+# Meu Template e Método Completo - KOFI 🧭
+
+<br><br>
+
+<div align="left">  
+  
+<a href="https://ko-fi.com/s/f5e8afed0c" target="_blank">  
+<img src="https://img.shields.io/badge/Métodos%20de%20Gestão%20de%20Conhecimento-876CBE?style=for-the-badge&logo=obsidian&logoColor=white">  
+</a>  
+  
+</div>
+
+
+![[vault-pkm-1.png]]
+
+
+<br>
+
+---
+
 # Comunidade
 
 Participe da comunidade para trocar ideias, compartilhar experiências, discutir produtividade, organização do conhecimento, Obsidian, automações etc..
