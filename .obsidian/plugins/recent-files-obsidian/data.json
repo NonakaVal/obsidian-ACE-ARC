@@ -5,6 +5,74 @@
       "path": "Boas Vindas.md"
     },
     {
+      "basename": "Créditos-Atribuições",
+      "path": "Créditos-Atribuições.md"
+    },
+    {
+      "basename": "Z-project note",
+      "path": "X/Templates/Format/Z-project note.md"
+    },
+    {
+      "basename": "T-new-project",
+      "path": "X/Templates/Format/T-new-project.md"
+    },
+    {
+      "basename": "T-new-note-collection",
+      "path": "X/Templates/Format/T-new-note-collection.md"
+    },
+    {
+      "basename": "T-new-note-base",
+      "path": "X/Templates/Format/T-new-note-base.md"
+    },
+    {
+      "basename": "T memo",
+      "path": "X/Templates/Format/T memo.md"
+    },
+    {
+      "basename": "A-Weekly Note Template",
+      "path": "X/Templates/Format/A-Weekly Note Template.md"
+    },
+    {
+      "basename": "A-Monthly-note-template",
+      "path": "X/Templates/Format/A-Monthly-note-template.md"
+    },
+    {
+      "basename": "A-Daily Note Template",
+      "path": "X/Templates/Format/A-Daily Note Template.md"
+    },
+    {
+      "basename": "_ base template",
+      "path": "X/Templates/Format/_ base template.md"
+    },
+    {
+      "basename": "08 ACE Pack",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/08 ACE Pack.md"
+    },
+    {
+      "basename": "02 Markdown",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "+ Gestão de Conhecimento",
+      "path": "Atlas/Index & Bases/+ Gestão de Conhecimento.md"
+    },
+    {
+      "basename": "@-templates",
+      "path": "X/Assets/Dataview/@-templates.md"
+    },
+    {
+      "basename": "09 ARC Framework",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/09 ARC Framework.md"
+    },
+    {
+      "basename": "01 Primeira Nota",
+      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md"
+    },
+    {
       "basename": "_atalhos",
       "path": "X/Assets/_atalhos.md"
     },
@@ -15,18 +83,6 @@
     {
       "basename": "Estrutura base",
       "path": "+/Estrutura base.md"
-    },
-    {
-      "basename": "A-Monthly-note-template",
-      "path": "X/Templates/Format/A-Monthly-note-template.md"
-    },
-    {
-      "basename": "A-Weekly Note Template",
-      "path": "X/Templates/Format/A-Weekly Note Template.md"
-    },
-    {
-      "basename": "A-Daily Note Template",
-      "path": "X/Templates/Format/A-Daily Note Template.md"
     },
     {
       "basename": "2026-08-23",
@@ -41,28 +97,8 @@
       "path": "X/start-here.md"
     },
     {
-      "basename": "02 Markdown",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/02 Markdown.md"
-    },
-    {
-      "basename": "01 Primeira Nota",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/01 Primeira Nota.md"
-    },
-    {
-      "basename": "08 ACE Pack",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/08 ACE Pack.md"
-    },
-    {
-      "basename": "+ Gestão de Conhecimento",
-      "path": "Atlas/Index & Bases/+ Gestão de Conhecimento.md"
-    },
-    {
       "basename": "Considere apoiar o projeto 💛",
       "path": "Considere apoiar o projeto 💛.md"
-    },
-    {
-      "basename": "Créditos-Atribuições",
-      "path": "Créditos-Atribuições.md"
     },
     {
       "basename": "Obsidian Base",
@@ -73,16 +109,8 @@
       "path": "X/Templates/Format/A-new-note.md"
     },
     {
-      "basename": "@-templates",
-      "path": "X/Assets/Dataview/@-templates.md"
-    },
-    {
       "basename": "B-Daily Note Template",
       "path": "X/Templates/Format/B-Daily Note Template.md"
-    },
-    {
-      "basename": "T-new-note-base",
-      "path": "X/Templates/Format/T-new-note-base.md"
     },
     {
       "basename": "%-codeblock",
@@ -93,20 +121,12 @@
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/06 Boas Práticas de Classificação.md"
     },
     {
-      "basename": "09 ARC Framework",
-      "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/09 ARC Framework.md"
-    },
-    {
       "basename": "07 Sugestões de Classificações",
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/07 Sugestões de Classificações.md"
     },
     {
       "basename": "04 Entendendo Coleções",
       "path": "Atlas/Conceitos/+ Entendendo o básico Obsidian/04 Entendendo Coleções.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "Gestão de Conhecimento",
@@ -121,16 +141,8 @@
       "path": "X/Templates/Format/T-leitura.md"
     },
     {
-      "basename": "_ base template",
-      "path": "X/Templates/Format/_ base template.md"
-    },
-    {
       "basename": "Z-new-area-note",
       "path": "X/Templates/Format/Z-new-area-note.md"
-    },
-    {
-      "basename": "Z-project note",
-      "path": "X/Templates/Format/Z-project note.md"
     },
     {
       "basename": "T-new-area",
@@ -139,10 +151,6 @@
     {
       "basename": "T-book",
       "path": "X/Templates/Format/T-book.md"
-    },
-    {
-      "basename": "T memo",
-      "path": "X/Templates/Format/T memo.md"
     },
     {
       "basename": "T-dot",
@@ -171,10 +179,6 @@
     {
       "basename": "QRcodesApoio",
       "path": "X/Assets/QRcodesApoio.md"
-    },
-    {
-      "basename": "T-new-project",
-      "path": "X/Templates/Format/T-new-project.md"
     }
   ],
   "omittedPaths": [],

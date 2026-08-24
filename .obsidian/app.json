@@ -6,5 +6,6 @@
   "newFileFolderPath": "+",
   "attachmentFolderPath": "X/Media",
   "readableLineLength": true,
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "foldHeading": true
 }
